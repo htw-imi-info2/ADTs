@@ -1,11 +1,11 @@
 package queue;
 
-public class Queue {
-	class Node{
-		String data;
-		Node snext;
+public class Queue<E> {
+	class Node<T> {
+		T data;
+		Node<T> next;
 	}
-	Node first,last;
-	
+
+	Node<E> first, last;
 
 }
